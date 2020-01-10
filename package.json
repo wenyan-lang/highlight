@@ -1,0 +1,16 @@
+{
+  "name": "@wenyanlang/syntax",
+  "version": "0.0.1",
+  "description": "Collection of syntax highlight for Wenyan Lang",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wenyan",
+    "wenyan-lang",
+    "syntax-highlight"
+  ],
+  "author": "Anthony Fu<anthonyfu117@hotmail.com>",
+  "license": "MIT"
+}
