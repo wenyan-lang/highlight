@@ -1,14 +1,14 @@
 # 文言五色 - Collection of syntax highlight for Wenyan Lang
 
-| Format | File | Note |
-| --- | --- | --- |
-| [TextMate Grammar](https://macromates.com/manual/en/language_grammars) | [tmGrammar.json](./tmGrammar.json) |
+| Format | File |
+| --- | --- |
 | [CodeMirror](https://codemirror.net/mode/) | [codemirror.js](./codemirror.json) |
 | [Prism](https://prismjs.com/extending.html) | [prism.js](./prism.js) |
+| [TextMate Grammar](https://macromates.com/manual/en/language_grammars) | [tmGrammar.json](./tmGrammar.json) |
 
 ### Usage
 
-Replace `codemirror` if you want to use different formats
+> 💡 Replace `codemirror` if you want to use different formats
 
 #### CDN
 
