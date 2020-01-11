@@ -13,8 +13,7 @@ const  {
   punctuations,
 } = require('./keywords')
 
-function build() {
-  const output = `
+const output = `
 try {
   const CodeMirror = require('codemirror')
   require('codemirror/addon/mode/simple')
@@ -25,20 +24,17 @@ CodeMirror.defineSimpleMode('wenyan', {
   // The start state contains the rules that are intially used
   start: [
     // The regex matches the token, the token property contains the type
-    { regex: new RegExp('${string}'), token: 'string' },
-    { regex: new RegExp('${variable}'), token: 'variable' },
-    { regex: new RegExp('${keywords}'), token: 'builtin' },
-    { regex: new RegExp('${controls}'), token: 'keyword' },
-    { regex: new RegExp('${types}'), token: 'type' },
-    { regex: new RegExp('${atoms}'), token: 'atom' },
-    { regex: new RegExp('${operators}'), token: 'operator' },
-    { regex: new RegExp('${numbers}'), token: 'number' },
-    { regex: new RegExp('${comments}|${punctuations}'), token: 'comment' },
+    { regex: /${string}/, token: 'string' },
+    { regex: /${variable}/, token: 'variable' },
+    { regex: /${keywords}/, token: 'builtin' },
+    { regex: /${controls}/, token: 'keyword' },
+    { regex: /${types}/, token: 'type' },
+    { regex: /${atoms}/, token: 'atom' },
+    { regex: /${operators}/, token: 'operator' },
+    { regex: /${numbers}/, token: 'number' },
+    { regex: /${comments}|${punctuations}/, token: 'comment' },
   ],
 })
 `
 
-  fs.writeFileSync(path.resolve(__dirname, '../codemirror.js'), output, 'utf-8')
-}
-
-build()
+fs.writeFileSync(path.resolve(__dirname, '../codemirror.js'), output, 'utf-8')

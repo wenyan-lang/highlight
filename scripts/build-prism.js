@@ -13,18 +13,17 @@ const {
   punctuations,
 } = require('./keywords')
 
-function build() {
-  const output = `
+const output = `
 (() => {
   function install(Prism) {
     Prism.languages.wenyan = {
       comment: {
         pattern: /${comments}/,
-        greedy: true
+        greedy: true,
       },
       string: {
         pattern: /${string}/,
-        greedy: true
+        greedy: true,
       },
       function: {
         pattern: /${variable}/,
@@ -32,12 +31,14 @@ function build() {
       },
       keyword: {
         pattern: /${keywords}/,
-        greedy: true
+        greedy: true,
       },
+      builtin: /${controls}/,
       selector: /${types}/,
+      property: /${atoms}/,
       number: /${numbers}/,
       operator: /${operators}/,
-      punctuation: /${punctuations}/
+      punctuation: /${punctuations}/,
     }
   }
 
@@ -52,7 +53,4 @@ function build() {
 })();
 ` 
 
-  fs.writeFileSync(path.resolve(__dirname, '../prism.js'), output, 'utf-8')
-}
-
-build()
+fs.writeFileSync(path.resolve(__dirname, '../prism.js'), output, 'utf-8')
