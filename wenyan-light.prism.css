@@ -15,7 +15,7 @@ pre[class*="language-"] {
   border-radius: 0.3em;
 }
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
-  background: #f9f2ec;
+  background: #fffbf7;
 }
 :not(pre) > code[class*="language-"] {
   padding: .1em;
@@ -32,7 +32,7 @@ pre[class*="language-"] {
   opacity: .7;
 }
 .token.property, .token.tag, .token.constant, .token.symbol, .token.deleted {
-  color: #f92672;
+  color: #E53;
 }
 .token.boolean, .token.number {
   color: #872;
@@ -50,13 +50,13 @@ pre[class*="language-"] {
   color: #248;
 }
 .token.atrule, .token.attr-value, .token.function {
-  color: #e6db74;
+  color: #872;
 }
 .token.keyword {
   color: #000;
 }
 .token.regex, .token.important {
-  color: #fd971f;
+  color: #872;
 }
 .token.important, .token.bold {
   font-weight: bold;
