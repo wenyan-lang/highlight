@@ -11,6 +11,7 @@ const {
   numbers,
   comments,
   punctuations,
+  macros,
 } = require('./keywords')
 
 const output = `
@@ -34,9 +35,10 @@ const output = `
         greedy: true,
       },
       keyword: {
-        pattern: /${keywords}/,
+        pattern: /${controls}/,
         greedy: true,
       },
+      tag: /${macros}/,
       selector: /${types}/,
       property: /${atoms}/,
       number: /${numbers}/,

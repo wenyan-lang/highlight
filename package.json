@@ -16,6 +16,8 @@
   "author": "Anthony Fu<anthonyfu117@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@wenyanlang/core": "^0.2.4"
+    "@wenyanlang/core": "^0.2.4",
+    "ts-node": "^8.6.1",
+    "typescript": "^3.7.4"
   }
 }

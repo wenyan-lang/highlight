@@ -10,6 +10,7 @@ const  {
   operators,
   numbers,
   comments,
+  macros,
   punctuations,
 } = require('./keywords')
 
@@ -27,7 +28,7 @@ CodeMirror.defineSimpleMode('wenyan', {
     { regex: /${string}/, token: 'string' },
     { regex: /${variable}/, token: 'variable' },
     { regex: /${keywords}/, token: 'builtin' },
-    { regex: /${controls}/, token: 'keyword' },
+    { regex: /${controls}|${macros}/, token: 'keyword' },
     { regex: /${types}/, token: 'type' },
     { regex: /${atoms}/, token: 'atom' },
     { regex: /${operators}/, token: 'operator' },
