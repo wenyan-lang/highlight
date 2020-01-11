@@ -27,9 +27,9 @@ Check out the [examples](https://wenyan-lang.github.io/highlight)
 
 ```html
 <!--Highlighter-->
-<script src='https://raw.githubusercontent.com/wenyan-lang/highlight/master/codemirror.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/wenyan-lang/highlight/codemirror.js'></script>
 <!--Theme-->
-<link rel='stylesheet' type='text/css' href='https://raw.githubusercontent.com/wenyan-lang/highlight/master/wenyan-light.codemirror.css'>
+<link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/gh/wenyan-lang/highlight/wenyan-light.codemirror.css'>
 ```
 
 #### NPM
