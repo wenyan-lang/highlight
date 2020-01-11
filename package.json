@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./scripts/build",
-    "release": "bump --commit --push && npm run publish"
+    "release": "bump --commit --push && npm publish"
   },
   "keywords": [
     "wenyan",
