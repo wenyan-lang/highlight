@@ -10,7 +10,7 @@
         pattern: /(?:「「|『).*?(?:」」|』)/,
         greedy: true,
       },
-      function: {
+      variable: {
         pattern: /「.*?」/,
         greedy: true,
       },

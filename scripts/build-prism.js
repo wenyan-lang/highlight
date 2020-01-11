@@ -25,7 +25,7 @@ const output = `
         pattern: /${string}/,
         greedy: true,
       },
-      function: {
+      variable: {
         pattern: /${variable}/,
         greedy: true,
       },

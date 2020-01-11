@@ -16,6 +16,7 @@
 | Format | File |
 | --- | --- |
 | [CodeMirror](https://codemirror.net/mode/) | [wenyan-light.codemirror.css](./wenyan-light.codemirror.css) |
+| [Prism](https://codemirror.net/mode/) | [wenyan-light.prism.css](./wenyan-light.prism.css) |
 
 ### Usage
 
