@@ -29,11 +29,14 @@ const output = `
         pattern: /${variable}/,
         greedy: true,
       },
+      builtin: {
+        pattern: /${keywords}/,
+        greedy: true,
+      },
       keyword: {
         pattern: /${keywords}/,
         greedy: true,
       },
-      builtin: /${controls}/,
       selector: /${types}/,
       property: /${atoms}/,
       number: /${numbers}/,
