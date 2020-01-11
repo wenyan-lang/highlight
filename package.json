@@ -16,6 +16,6 @@
   "author": "Anthony Fu<anthonyfu117@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@wenyanlang/core": "^0.2.3"
+    "@wenyanlang/core": "^0.2.4"
   }
 }
