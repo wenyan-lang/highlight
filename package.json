@@ -4,7 +4,8 @@
   "description": "Collection of syntax highlight for Wenyan Lang",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./scripts/build"
   },
   "keywords": [
     "wenyan",
@@ -12,5 +13,8 @@
     "syntax-highlight"
   ],
   "author": "Anthony Fu<anthonyfu117@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@wenyanlang/core": "^0.2.3"
+  }
 }
