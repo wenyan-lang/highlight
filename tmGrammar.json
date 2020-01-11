@@ -94,7 +94,7 @@
     "comment-blocks": {
       "name": "comment.block",
       "begin": "(注曰|疏曰|批曰)。(「「|『)",
-      "end": "(」」|』)」",
+      "end": "(」」|』)",
       "patterns": [
         {
           "name": "constant.character",

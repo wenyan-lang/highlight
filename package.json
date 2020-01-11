@@ -1,5 +1,5 @@
 {
-  "name": "@wenyanlang/syntax",
+  "name": "@wenyanlang/highlight",
   "version": "0.0.1",
   "description": "Collection of syntax highlight for Wenyan Lang",
   "main": "index.js",
