@@ -1,7 +1,8 @@
-# 文言五色 - Collection of syntax highlighter for Wenyan Lang
+# 文言五色 - Syntax highlighters for Wenyan Lang
 
+Check out the [examples](https://wenyan-lang.github.io/highlight)
 
-#### Syntax highlighter
+### Syntax highlighters
 
 | Format | File |
 | --- | --- |
@@ -9,9 +10,9 @@
 | [Prism](https://prismjs.com/extending.html) | [prism.js](./prism.js) |
 | [TextMate Grammar](https://macromates.com/manual/en/language_grammars) | [tmGrammar.json](./tmGrammar.json) |
 
-#### Highlight Theme
+### Highlight Themes
 
-##### wenyan-light
+#### wenyan-light
 
 | Format | File |
 | --- | --- |
@@ -20,7 +21,7 @@
 
 ### Usage
 
-> 💡 Replace `codemirror` if you want to use different formats
+> 💡 Replace `codemirror` if you want to use different formats/editors
 
 #### CDN
 
