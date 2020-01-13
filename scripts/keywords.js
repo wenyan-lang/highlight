@@ -18,13 +18,13 @@ for (const k of Object.keys(Wenyan.KEYWORDS)) {
   if (['print', 'decl', 'name', 'call', 'rassgn', 'take', 'expr', 'import', 'throw', 'try', 'discard', 'take', 'assgn'].includes(Wenyan.KEYWORDS[k][0]))
     keywords.push(k)
 
-  if (['ctrl'].includes(Wenyan.KEYWORDS[k][0]))
+  if (['ctrl', 'ctnr'].includes(Wenyan.KEYWORDS[k][0]))
     controls.push(k)
 
   if (['bool', 'ans'].includes(Wenyan.KEYWORDS[k][0]))
     atoms.push(k)
 
-  if (['lop', 'op', 'cmp', 'opord'].includes(Wenyan.KEYWORDS[k][0]))
+  if (['lop', 'op', 'cmp', 'opord', 'not', 'mod'].includes(Wenyan.KEYWORDS[k][0]))
     operators.push(k)
 
   if (['type'].includes(Wenyan.KEYWORDS[k][0]))
