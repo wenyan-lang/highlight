@@ -2,7 +2,8 @@ const fs = require('fs')
 const path = require('path')
 const {
   keywords,
-  controls,
+  controlsOneLetter,
+  controlsTwoOrMoreLetters,
   types,
   atoms,
   operators,
@@ -56,7 +57,7 @@ const output = {
         },
         {
           "name": "keyword.control",
-          "match": controls
+          "match": controlsTwoOrMoreLetters
         },
         {
           "name": "keyword.control",
@@ -69,7 +70,11 @@ const output = {
         {
           "name": "keyword.other",
           "match": keywords,
-        }
+        },
+        {
+          "name": "keyword.control",
+          "match": controlsOneLetter
+        },
       ]
     },
     "comment-lines": {
@@ -85,7 +90,7 @@ const output = {
     },
     "comment-blocks": {
       "name": "comment.block",
-      "begin": `(${commentStarts})。(「「|『)`,
+      "begin": `(${commentStarts})。?(「「|『)`,
       "end": "(」」|』)",
       "patterns": [
         {

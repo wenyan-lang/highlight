@@ -48,6 +48,8 @@ module.exports = {
   variable: '「.*?」',
   keywords: keywords.join('|'),
   controls: controls.join('|'),
+  controlsOneLetter: controls.filter(i => i.length === 1).join('|'),
+  controlsTwoOrMoreLetters: controls.filter(i => i.length !== 1).join('|'),
   types: types.join('|'),
   atoms: atoms.join('|'),
   operators: operators.join('|'),
