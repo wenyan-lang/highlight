@@ -1,20 +1,12 @@
 
-(() => {
-  let CodeMirror = null
-
-  if (typeof window !== 'undefined') { 
-    CodeMirror = window.CodeMirror 
-  }
-  else {
-    try {
-      CodeMirror = require('codemirror')
-      require('codemirror/addon/mode/simple')
-    }
-    catch {}
-  }
-
-  if (!CodeMirror)
-    return
+(function(mod) {
+  if (typeof exports == "object" && typeof module == "object") // CommonJS
+    mod(require("codemirror"));
+  else if (typeof define == "function" && define.amd) // AMD
+    define(["../../lib/codemirror"], mod);
+  else // Plain browser env
+    mod(CodeMirror);
+})(function(CodeMirror) {
 
   CodeMirror.defineSimpleMode('wenyan', {
     // The start state contains the rules that are intially used
@@ -31,4 +23,4 @@
       { regex: /注曰。?(「「|『).*?(」」|』)|疏曰。?(「「|『).*?(」」|』)|批曰。?(「「|『).*?(」」|』)|。|、/, token: 'comment' },
     ],
   })
-})()
+})
