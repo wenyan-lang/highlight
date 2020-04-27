@@ -35,15 +35,15 @@ Check out the [examples](https://wenyan-lang.github.io/highlight)
 #### NPM
 
 ```bash
-npm i @wenyanlang/highlight
+npm i @wenyan/highlight
 ```
 
 ```js
-require('@wenyanlang/highlight/codemirror')
+require('@wenyan/highlight/codemirror')
 
 // or 
 
-import '@wenyanlang/highlight/codemirror'
+import '@wenyan/highlight/codemirror'
 ```
 
 ### Build

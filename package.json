@@ -1,6 +1,6 @@
 {
-  "name": "@wenyanlang/highlight",
-  "version": "0.1.1",
+  "name": "@wenyan/highlight",
+  "version": "0.1.2",
   "description": "Collection of syntax highlight for Wenyan Lang",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "author": "Anthony Fu<anthonyfu117@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@wenyanlang/core": "^0.2.4",
+    "@wenyan/core": "^0.2.4",
     "ts-node": "^8.6.1",
     "typescript": "^3.7.4",
     "version-bump-prompt": "^6.0.0"

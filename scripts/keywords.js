@@ -1,4 +1,4 @@
-const Wenyan = require('@wenyanlang/core')
+const Wenyan = require('@wenyan/core')
 
 const keywords = []
 const controls = []
