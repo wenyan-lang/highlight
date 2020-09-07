@@ -58,4 +58,4 @@ const output = `
 })();
 ` 
 
-fs.writeFileSync(path.resolve(__dirname, '../prism.js'), output, 'utf-8')
+fs.writeFileSync(path.resolve(__dirname, '../wenyan.prism.js'), output, 'utf-8')

@@ -42,4 +42,4 @@ const output = `
 })
 `
 
-fs.writeFileSync(path.resolve(__dirname, '../codemirror.js'), output, 'utf-8')
+fs.writeFileSync(path.resolve(__dirname, '../wenyan.codemirror.js'), output, 'utf-8')
