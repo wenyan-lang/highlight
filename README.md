@@ -6,9 +6,9 @@ Check out the [examples](https://wenyan-lang.github.io/highlight)
 
 | Format | File |
 | --- | --- |
-| [CodeMirror](https://codemirror.net/mode/) | [codemirror.js](./codemirror.json) |
-| [Prism](https://prismjs.com/extending.html) | [prism.js](./prism.js) |
-| [TextMate Grammar](https://macromates.com/manual/en/language_grammars) | [tmGrammar.json](./tmGrammar.json) |
+| [CodeMirror](https://codemirror.net/mode/) | [wenyan.codemirror.js](./wenyan.codemirror.json) |
+| [Prism](https://prismjs.com/extending.html) | [wenyan.prism.js](./wenyan.prism.js) |
+| [TextMate Grammar](https://macromates.com/manual/en/language_grammars) | [wenyan.tmLanguage.json](./wenyan.tmLanguage.json) |
 
 ### Highlight Themes
 
@@ -27,7 +27,7 @@ Check out the [examples](https://wenyan-lang.github.io/highlight)
 
 ```html
 <!--Highlighter-->
-<script src='https://cdn.jsdelivr.net/gh/wenyan-lang/highlight/codemirror.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/wenyan-lang/highlight/wenyan.codemirror.js'></script>
 <!--Theme-->
 <link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/gh/wenyan-lang/highlight/wenyan-light.codemirror.css'>
 ```
@@ -39,11 +39,11 @@ npm i @wenyan/highlight
 ```
 
 ```js
-require('@wenyan/highlight/codemirror')
+require('@wenyan/highlight/wenyan.codemirror')
 
 // or 
 
-import '@wenyan/highlight/codemirror'
+import '@wenyan/highlight/wenyan.codemirror'
 ```
 
 ### Build
