@@ -8,7 +8,7 @@ Check out the [examples](https://wenyan-lang.github.io/highlight)
 | --- | --- |
 | [CodeMirror](https://codemirror.net/mode/) | [codemirror.js](./codemirror.json) |
 | [Prism](https://prismjs.com/extending.html) | [prism.js](./prism.js) |
-| [TextMate Grammar](https://macromates.com/manual/en/language_grammars) | [tmGrammar.json](./tmGrammar.json) |
+| [TextMate Grammar](https://macromates.com/manual/en/language_grammars) | [wenyan.tmLanguage.json](./wenyan.tmLanguage.json) |
 
 ### Highlight Themes
 

@@ -144,4 +144,4 @@ const output = {
   }
 }
 
-fs.writeFileSync(path.resolve(__dirname, '../tmGrammar.json'), JSON.stringify(output, null, 2) + '\n', 'utf-8')
+fs.writeFileSync(path.resolve(__dirname, '../wenyan.tmLanguage.json'), JSON.stringify(output, null, 2) + '\n', 'utf-8')
