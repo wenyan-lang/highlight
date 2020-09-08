@@ -6,7 +6,7 @@ Check out the [examples](https://wenyan-lang.github.io/highlight)
 
 | Format | File |
 | --- | --- |
-| [CodeMirror](https://codemirror.net/mode/) | [wenyan.codemirror.js](./wenyan.codemirror.json) |
+| [CodeMirror](https://codemirror.net/mode/) | [wenyan.codemirror.js](./wenyan.codemirror.js) |
 | [Prism](https://prismjs.com/extending.html) | [wenyan.prism.js](./wenyan.prism.js) |
 | [TextMate Grammar](https://macromates.com/manual/en/language_grammars) | [wenyan.tmLanguage.json](./wenyan.tmLanguage.json) |
 
